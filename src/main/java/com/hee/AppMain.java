@@ -20,10 +20,11 @@ import org.springframework.context.annotation.Configuration;
 //@MapperScan(basePackages = {"com.hee.mapper"})
 //@ComponentScan(basePackages={"com.hee.controller" , "com.hee.service"})
 
-@Configuration
+/*@Configuration
 @EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
 @ComponentScan(basePackages={"com.hee.controller" , "com.hee.service"})
-@MapperScan("com.hee.mapper")
+@MapperScan("com.hee.mapper")*/
+@SpringBootApplication
 public class AppMain {
 
     public static void main(String[] args) {

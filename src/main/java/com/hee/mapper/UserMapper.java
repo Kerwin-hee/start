@@ -10,7 +10,7 @@ import org.apache.ibatis.annotations.Mapper;
  * @description com.hee.mapper
  * @date 2018/4/9
  */
-
+@Mapper
 public interface UserMapper extends tk.mybatis.mapper.common.Mapper<User>  {
 
     int addUser(User user);
