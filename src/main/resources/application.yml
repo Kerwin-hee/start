@@ -1,0 +1,3 @@
+user:
+    username: "小红"
+    address: "${user.username}，家住湖北武汉!"
